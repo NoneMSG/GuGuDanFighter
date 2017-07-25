@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jx372.gugudanfighter.ResultActivity">
+
+
+    <TextView
+        android:id="@+id/correctAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="116dp"
+        android:text="맞춘개수" />
+
+    <Button
+        android:id="@+id/noBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/correctAnswer"
+        android:layout_below="@+id/correctAnswer"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="76dp"
+        android:text="No" />
+
+    <Button
+        android:id="@+id/yesBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/noBtn"
+        android:layout_toEndOf="@+id/noBtn"
+        android:text="Yes" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다시 게임을 시작하시 겠습니까?"
+        android:layout_marginBottom="21dp"
+        android:layout_above="@+id/yesBtn"
+        android:layout_alignEnd="@+id/yesBtn"
+        android:layout_marginEnd="12dp" />
+
+
+</RelativeLayout>

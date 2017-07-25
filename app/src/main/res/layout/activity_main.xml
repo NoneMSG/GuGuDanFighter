@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jx372.gugudanfighter.MainActivity">
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/startB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="146dp"
+        android:text="게임시작"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="구구단 파이터!"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/startB"
+        android:layout_marginTop="75dp" />
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/scoreB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="기록"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/startB" />
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/helpB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="도움말"
+        android:layout_below="@+id/scoreB"
+        android:layout_alignStart="@+id/scoreB" />
+
+
+</RelativeLayout>
